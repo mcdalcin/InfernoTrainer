@@ -23,8 +23,8 @@ import {
   TorvaPlatelegs,
   TwistedBow,
   UltorRing,
+  Yama,
 } from "../src";
-import { SampleNpc } from "./SampleNpc";
 
 export class SampleRegion extends Region {
   get initialFacing() {
@@ -96,7 +96,7 @@ export class SampleRegion extends Region {
     };
     player.setUnitOptions(loadout);
 
-    this.addMob(new SampleNpc(this, { x: 25, y: 20 }, {}));
+    this.addMob(new Yama(this, { x: 25, y: 20 }, {}));
     return { player };
   }
 }

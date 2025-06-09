@@ -4,3 +4,4 @@ export { InvisibleMovementBlocker } from "./MovementBlocker";
 export * from "./equipment";
 export * from "./items";
 export * from "./weapons";
+export * from "./bosses";
