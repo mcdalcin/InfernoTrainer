@@ -28,6 +28,7 @@ module.exports = merge(common, {
         { from: `index.html`, to: "", context: `sample/` },
         { from: `assets/fonts/*.woff`, to: "", context: `src/` },
         { from: `assets/fonts/*.woff2`, to: "", context: `src/` },
+        { from: `assets/models/yama.glb`, to: "assets/models/", context: `src/` },
       ],
     }),
   ],

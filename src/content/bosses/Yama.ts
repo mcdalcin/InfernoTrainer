@@ -70,6 +70,6 @@ export class Yama extends Mob {
   }
 
   create3dModel() {
-    return GLTFModel.forRenderable(this, Assets.getAssetUrl("models/yama.glb"));
+    return GLTFModel.forRenderable(this, "assets/models/yama.glb");
   }
 }
